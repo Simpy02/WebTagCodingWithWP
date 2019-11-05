@@ -1,0 +1,277 @@
+[15-Oct-2019 13:12:24 UTC] PHP Warning:  Use of undefined constant all - assumed 'all' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 7
+[15-Oct-2019 13:12:24 UTC] PHP Stack trace:
+[15-Oct-2019 13:12:24 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:0
+[15-Oct-2019 13:12:24 UTC] PHP   2. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:17
+[15-Oct-2019 13:12:24 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-blog-header.php:19
+[15-Oct-2019 13:12:24 UTC] PHP   4. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\template-loader.php:78
+[15-Oct-2019 13:12:24 UTC] PHP   5. get_header() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php:1
+[15-Oct-2019 13:12:24 UTC] PHP   6. locate_template() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\general-template.php:41
+[15-Oct-2019 13:12:24 UTC] PHP   7. load_template() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\template.php:671
+[15-Oct-2019 13:12:24 UTC] PHP   8. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\template.php:722
+[15-Oct-2019 13:12:24 UTC] PHP   9. wp_head() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\header.php:8
+[15-Oct-2019 13:12:24 UTC] PHP  10. do_action() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\general-template.php:2745
+[15-Oct-2019 13:12:24 UTC] PHP  11. WP_Hook->do_action() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\plugin.php:465
+[15-Oct-2019 13:12:24 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\class-wp-hook.php:310
+[15-Oct-2019 13:12:24 UTC] PHP  13. wp_enqueue_scripts() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\class-wp-hook.php:286
+[15-Oct-2019 13:12:24 UTC] PHP  14. do_action() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\script-loader.php:2537
+[15-Oct-2019 13:12:24 UTC] PHP  15. WP_Hook->do_action() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\plugin.php:465
+[15-Oct-2019 13:12:24 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\class-wp-hook.php:310
+[15-Oct-2019 13:12:24 UTC] PHP  17. webtag_setup() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\class-wp-hook.php:286
+[17-Oct-2019 12:23:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php:1
+Stack trace:
+#0 {main}
+  thrown in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php on line 1
+[17-Oct-2019 12:25:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php:1
+Stack trace:
+#0 {main}
+  thrown in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php on line 1
+[17-Oct-2019 12:26:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php:1
+Stack trace:
+#0 {main}
+  thrown in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php on line 1
+[17-Oct-2019 12:26:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php:1
+Stack trace:
+#0 {main}
+  thrown in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php on line 1
+[17-Oct-2019 12:31:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php:1
+Stack trace:
+#0 {main}
+  thrown in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php on line 1
+[17-Oct-2019 12:31:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php:1
+Stack trace:
+#0 {main}
+  thrown in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php on line 1
+[17-Oct-2019 12:31:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php:1
+Stack trace:
+#0 {main}
+  thrown in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php on line 1
+[17-Oct-2019 12:31:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php:1
+Stack trace:
+#0 {main}
+  thrown in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php on line 1
+[17-Oct-2019 12:36:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php:1
+Stack trace:
+#0 {main}
+  thrown in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php on line 1
+[17-Oct-2019 12:42:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php:1
+Stack trace:
+#0 {main}
+  thrown in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\index.php on line 1
+[17-Oct-2019 13:10:49 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\front-page.php on line 17
+[17-Oct-2019 13:11:11 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\front-page.php on line 17
+[17-Oct-2019 13:11:16 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\front-page.php on line 17
+[17-Oct-2019 14:06:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_the_post_thumbnail_url() in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\front-page.php:65
+Stack trace:
+#0 C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\template-loader.php(78): include()
+#1 C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rajeng...')
+#2 C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php(17): require('C:\\Users\\rajeng...')
+#3 {main}
+  thrown in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\front-page.php on line 65
+[21-Oct-2019 12:21:06 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 20
+[21-Oct-2019 13:17:48 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\formatting.php on line 246
+[21-Oct-2019 13:17:48 UTC] PHP Stack trace:
+[21-Oct-2019 13:17:48 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\post.php:0
+[21-Oct-2019 13:17:48 UTC] PHP   2. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\post.php:197
+[21-Oct-2019 13:17:48 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\edit-form-advanced.php:393
+[21-Oct-2019 13:17:48 UTC] PHP   4. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin-header.php:236
+[21-Oct-2019 13:17:48 UTC] PHP   5. _wp_menu_output() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\menu-header.php:272
+[21-Oct-2019 13:17:48 UTC] PHP   6. wptexturize() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\menu-header.php:233
+[21-Oct-2019 13:17:48 UTC] PHP   7. preg_match_all() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\formatting.php:246
+[21-Oct-2019 13:17:48 UTC] PHP Warning:  array_intersect(): Expected parameter 2 to be an array, null given in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\formatting.php on line 247
+[21-Oct-2019 13:17:48 UTC] PHP Stack trace:
+[21-Oct-2019 13:17:48 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\post.php:0
+[21-Oct-2019 13:17:48 UTC] PHP   2. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\post.php:197
+[21-Oct-2019 13:17:48 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\edit-form-advanced.php:393
+[21-Oct-2019 13:17:48 UTC] PHP   4. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin-header.php:236
+[21-Oct-2019 13:17:48 UTC] PHP   5. _wp_menu_output() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\menu-header.php:272
+[21-Oct-2019 13:17:48 UTC] PHP   6. wptexturize() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\menu-header.php:233
+[21-Oct-2019 13:17:48 UTC] PHP   7. array_intersect() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\formatting.php:247
+[21-Oct-2019 13:17:48 UTC] PHP Warning:  preg_split() expects parameter 2 to be string, array given in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\formatting.php on line 252
+[21-Oct-2019 13:17:48 UTC] PHP Stack trace:
+[21-Oct-2019 13:17:48 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\post.php:0
+[21-Oct-2019 13:17:48 UTC] PHP   2. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\post.php:197
+[21-Oct-2019 13:17:48 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\edit-form-advanced.php:393
+[21-Oct-2019 13:17:48 UTC] PHP   4. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin-header.php:236
+[21-Oct-2019 13:17:48 UTC] PHP   5. _wp_menu_output() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\menu-header.php:272
+[21-Oct-2019 13:17:48 UTC] PHP   6. wptexturize() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\menu-header.php:233
+[21-Oct-2019 13:17:48 UTC] PHP   7. preg_split() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\formatting.php:252
+[21-Oct-2019 13:17:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\formatting.php on line 254
+[21-Oct-2019 13:17:48 UTC] PHP Stack trace:
+[21-Oct-2019 13:17:48 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\post.php:0
+[21-Oct-2019 13:17:48 UTC] PHP   2. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\post.php:197
+[21-Oct-2019 13:17:48 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\edit-form-advanced.php:393
+[21-Oct-2019 13:17:48 UTC] PHP   4. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin-header.php:236
+[21-Oct-2019 13:17:48 UTC] PHP   5. _wp_menu_output() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\menu-header.php:272
+[21-Oct-2019 13:17:48 UTC] PHP   6. wptexturize() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\menu-header.php:233
+[21-Oct-2019 13:17:48 UTC] PHP Warning:  implode(): Invalid arguments passed in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\formatting.php on line 314
+[21-Oct-2019 13:17:48 UTC] PHP Stack trace:
+[21-Oct-2019 13:17:48 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\post.php:0
+[21-Oct-2019 13:17:48 UTC] PHP   2. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\post.php:197
+[21-Oct-2019 13:17:48 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\edit-form-advanced.php:393
+[21-Oct-2019 13:17:48 UTC] PHP   4. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin-header.php:236
+[21-Oct-2019 13:17:48 UTC] PHP   5. _wp_menu_output() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\menu-header.php:272
+[21-Oct-2019 13:17:48 UTC] PHP   6. wptexturize() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\menu-header.php:233
+[21-Oct-2019 13:17:48 UTC] PHP   7. implode() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\formatting.php:314
+[21-Oct-2019 13:28:26 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:28:26 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:28:26 UTC] PHP Stack trace:
+[21-Oct-2019 13:28:26 UTC] PHP Stack trace:
+[21-Oct-2019 13:28:26 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin-ajax.php:0
+[21-Oct-2019 13:28:26 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\post.php:0
+[21-Oct-2019 13:28:26 UTC] PHP   2. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin-ajax.php:22
+[21-Oct-2019 13:28:26 UTC] PHP   2. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\post.php:12
+[21-Oct-2019 13:28:26 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:28:26 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin.php:34
+[21-Oct-2019 13:28:26 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:28:26 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:28:26 UTC] PHP   5. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:28:26 UTC] PHP   5. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:28:26 UTC] PHP   6. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:28:30 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:28:30 UTC] PHP Stack trace:
+[21-Oct-2019 13:28:30 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin-ajax.php:0
+[21-Oct-2019 13:28:30 UTC] PHP   2. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin-ajax.php:22
+[21-Oct-2019 13:28:30 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:28:30 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:28:30 UTC] PHP   5. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:28:32 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:28:32 UTC] PHP Stack trace:
+[21-Oct-2019 13:28:32 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:0
+[21-Oct-2019 13:28:32 UTC] PHP   2. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:17
+[21-Oct-2019 13:28:32 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-blog-header.php:13
+[21-Oct-2019 13:28:32 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:28:32 UTC] PHP   5. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:28:32 UTC] PHP   6. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:28:32 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:28:32 UTC] PHP Stack trace:
+[21-Oct-2019 13:28:32 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:0
+[21-Oct-2019 13:28:32 UTC] PHP   2. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:17
+[21-Oct-2019 13:28:32 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-blog-header.php:13
+[21-Oct-2019 13:28:32 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:28:32 UTC] PHP   5. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:28:32 UTC] PHP   6. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:28:33 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:28:33 UTC] PHP Stack trace:
+[21-Oct-2019 13:28:33 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:0
+[21-Oct-2019 13:28:33 UTC] PHP   2. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:17
+[21-Oct-2019 13:28:33 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-blog-header.php:13
+[21-Oct-2019 13:28:33 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:28:33 UTC] PHP   5. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:28:33 UTC] PHP   6. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:28:33 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:28:33 UTC] PHP Stack trace:
+[21-Oct-2019 13:28:33 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:0
+[21-Oct-2019 13:28:33 UTC] PHP   2. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:17
+[21-Oct-2019 13:28:33 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-blog-header.php:13
+[21-Oct-2019 13:28:33 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:28:33 UTC] PHP   5. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:28:33 UTC] PHP   6. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:28:33 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:28:33 UTC] PHP Stack trace:
+[21-Oct-2019 13:28:33 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:0
+[21-Oct-2019 13:28:33 UTC] PHP   2. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:17
+[21-Oct-2019 13:28:33 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-blog-header.php:13
+[21-Oct-2019 13:28:33 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:28:33 UTC] PHP   5. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:28:33 UTC] PHP   6. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:28:33 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:28:33 UTC] PHP Stack trace:
+[21-Oct-2019 13:28:33 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:0
+[21-Oct-2019 13:28:33 UTC] PHP   2. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:17
+[21-Oct-2019 13:28:33 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-blog-header.php:13
+[21-Oct-2019 13:28:33 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:28:33 UTC] PHP   5. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:28:33 UTC] PHP   6. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:29:22 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:29:22 UTC] PHP Stack trace:
+[21-Oct-2019 13:29:22 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin-ajax.php:0
+[21-Oct-2019 13:29:22 UTC] PHP   2. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin-ajax.php:22
+[21-Oct-2019 13:29:22 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:29:22 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:29:22 UTC] PHP   5. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:29:22 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:29:22 UTC] PHP Stack trace:
+[21-Oct-2019 13:29:22 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\post.php:0
+[21-Oct-2019 13:29:22 UTC] PHP   2. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\post.php:12
+[21-Oct-2019 13:29:22 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin.php:34
+[21-Oct-2019 13:29:22 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:29:22 UTC] PHP   5. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:29:22 UTC] PHP   6. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:29:24 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:29:24 UTC] PHP Stack trace:
+[21-Oct-2019 13:29:24 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:0
+[21-Oct-2019 13:29:24 UTC] PHP   2. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:17
+[21-Oct-2019 13:29:24 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-blog-header.php:13
+[21-Oct-2019 13:29:24 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:29:24 UTC] PHP   5. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:29:24 UTC] PHP   6. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:29:24 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:29:24 UTC] PHP Stack trace:
+[21-Oct-2019 13:29:24 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:0
+[21-Oct-2019 13:29:24 UTC] PHP   2. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:17
+[21-Oct-2019 13:29:24 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-blog-header.php:13
+[21-Oct-2019 13:29:24 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:29:24 UTC] PHP   5. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:29:24 UTC] PHP   6. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:29:25 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:29:25 UTC] PHP Stack trace:
+[21-Oct-2019 13:29:25 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:0
+[21-Oct-2019 13:29:25 UTC] PHP   2. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:17
+[21-Oct-2019 13:29:25 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-blog-header.php:13
+[21-Oct-2019 13:29:25 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:29:25 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:29:25 UTC] PHP   5. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:29:25 UTC] PHP Stack trace:
+[21-Oct-2019 13:29:25 UTC] PHP   6. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:29:25 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:0
+[21-Oct-2019 13:29:25 UTC] PHP   2. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:17
+[21-Oct-2019 13:29:25 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-blog-header.php:13
+[21-Oct-2019 13:29:25 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:29:25 UTC] PHP   5. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:29:25 UTC] PHP   6. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:29:25 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:29:25 UTC] PHP Stack trace:
+[21-Oct-2019 13:29:25 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:0
+[21-Oct-2019 13:29:25 UTC] PHP   2. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:17
+[21-Oct-2019 13:29:25 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-blog-header.php:13
+[21-Oct-2019 13:29:25 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:29:25 UTC] PHP   5. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:29:25 UTC] PHP   6. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:29:25 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:29:25 UTC] PHP Stack trace:
+[21-Oct-2019 13:29:25 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:0
+[21-Oct-2019 13:29:25 UTC] PHP   2. require() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php:17
+[21-Oct-2019 13:29:25 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-blog-header.php:13
+[21-Oct-2019 13:29:25 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:29:25 UTC] PHP   5. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:29:25 UTC] PHP   6. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:29:34 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:29:34 UTC] PHP Stack trace:
+[21-Oct-2019 13:29:34 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:29:34 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin-ajax.php:0
+[21-Oct-2019 13:29:34 UTC] PHP Stack trace:
+[21-Oct-2019 13:29:34 UTC] PHP   2. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin-ajax.php:22
+[21-Oct-2019 13:29:34 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\index.php:0
+[21-Oct-2019 13:29:34 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:29:34 UTC] PHP   2. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\index.php:10
+[21-Oct-2019 13:29:34 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:29:34 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin.php:34
+[21-Oct-2019 13:29:34 UTC] PHP   5. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:29:34 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:29:34 UTC] PHP   5. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:29:35 UTC] PHP   6. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[21-Oct-2019 13:29:40 UTC] PHP Warning:  Use of undefined constant webtag_init - assumed 'webtag_init' (this will throw an Error in a future version of PHP) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\functions.php on line 24
+[21-Oct-2019 13:29:40 UTC] PHP Stack trace:
+[21-Oct-2019 13:29:40 UTC] PHP   1. {main}() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin-ajax.php:0
+[21-Oct-2019 13:29:40 UTC] PHP   2. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-admin\admin-ajax.php:22
+[21-Oct-2019 13:29:40 UTC] PHP   3. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-load.php:37
+[21-Oct-2019 13:29:40 UTC] PHP   4. require_once() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-config.php:77
+[21-Oct-2019 13:29:40 UTC] PHP   5. include() C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-settings.php:499
+[22-Oct-2019 12:09:42 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\header.php on line 59
+[22-Oct-2019 15:33:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_post_thumbnai() in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\page.php:13
+Stack trace:
+#0 C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-includes\template-loader.php(78): include()
+#1 C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-blog-header.php(19): require_once('C:\\Users\\rajeng...')
+#2 C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\index.php(17): require('C:\\Users\\rajeng...')
+#3 {main}
+  thrown in C:\Users\rajengg2008\Local Sites\webtagcoding\app\public\wp-content\themes\WebTagCoding\page.php on line 13
